@@ -15,7 +15,7 @@
     position: relative;
     width: 30vw;
     height: 30vw;
-    background: url('./src/clock.png') no-repeat;
+    background: url('./clock.png') no-repeat;
     background-size: 100%;
     margin: auto;
 }
