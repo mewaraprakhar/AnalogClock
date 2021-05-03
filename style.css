@@ -1,0 +1,108 @@
+/* IMPORTING FRONT 'Itim' */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* BODY STYLING */
+
+* {
+    background-color: rgb(199 209 212);
+}
+
+
+/* CONTAINER STYLING */
+
+#clockContainer {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background: url('./src/clock.png') no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+
+/* NEEDLES STYLING */
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 25%;
+    width: 1.8%;
+    left: 48.93%;
+    top: 25%;
+    opacity: 0.8;
+    background-color: rgb(37, 128, 51);
+}
+
+#minute {
+    height: 30%;
+    width: 1.6%;
+    left: 48.99%;
+    opacity: 0.8;
+    top: 19%;
+    background-color: rgb(233, 0, 0);
+}
+
+#second {
+    height: 40%;
+    width: 1%;
+    left: 49.42%;
+    opacity: 0.8;
+    top: 9%;
+    background-color: rgb(51, 0, 255);
+}
+
+
+/* INFORMATION AND STYLING OF CLOCK HANDS */
+
+#inf {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+#inf p {
+    font-family: 'Itim', cursive;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 10px;
+}
+
+#inf p:nth-child(1) {
+    color: rgb(37, 128, 51);
+}
+
+#inf p:nth-child(2) {
+    color: rgb(233, 0, 0);
+}
+
+#inf p:nth-child(3) {
+    color: rgb(51, 0, 255);
+}
+
+
+/* TIME STYLING */
+
+#time {
+    text-align: center;
+    color: black;
+    font-family: 'Itim', cursive;
+}
+
+#time h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+#show {
+    margin-top: 0px;
+    font-size: 20px;
+}
